@@ -1,0 +1,7 @@
+-- RegisterServerEvent('sendtildiscord')
+-- AddEventHandler('sendtildiscord', function(damage)
+-- 	local victim = source
+-- 	local user_id = vRP.getUserId({victim})
+-- 	local skade = damage
+-- 	PerformHttpRequest('https://discordapp.com/api/webhooks/670888834749300758/Aqqgjjdx_IlE_xY6zpRMACOVeqp02PJsWTGSyJ2whlV2dPgEy8fFOr6Ztj5VvNG_Xc94', function(err, text, headers) end, 'POST', json.encode({username = "Kill", content = "```\nOffer ID: "..user_id.." \n Fik\n"..skade.. "\ni skade".."(**"..os.date("%H:%M:%S %d/%m/%Y") .. "```"}), { ['Content-Type'] = 'application/json' })
+-- end)
